@@ -2,14 +2,14 @@
 
 'use strict'
 
-const duplicate = (value, N) => {
-  if (N <= 0) return [];
+const duplicate = (value, duplicatesAmount) => {
+  if (duplicatesAmount <= 0) return [];
   else {
-    const res = [];
-    for (let i = 0; i < N; i++) {
-      res[i] = value;
+    const text = [];
+    for (let i = 0; i < duplicatesAmount; i++) {
+      text[i] = value;
     }
-    return res;
+    return text;
   }
 };
 
