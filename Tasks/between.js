@@ -1,7 +1,6 @@
 // Extract substring between prefix and suffix
 
-// Step 6
-// Fused 11, 14, 15 lines into one
+// Passed: 3 of 3, code is refactored
 
 'use strict'
 
