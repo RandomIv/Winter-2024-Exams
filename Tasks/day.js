@@ -1,5 +1,7 @@
 // Get day number
 
+//day is fixed. Test is passed: 5 of 5
+
 'use strict';
 
 const DAYS = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
