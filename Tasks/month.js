@@ -1,5 +1,7 @@
 // Get month number
 
+//month is fixed. Test is passed: 7 of 7
+
 'use strict';
 
 const MONTHS = [
