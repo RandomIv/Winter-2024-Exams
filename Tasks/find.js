@@ -3,11 +3,9 @@
 'use strict';
 
 const findKey = (object, ...values) => {
-  const value = values.pop(1);
   for (const key in object) {
-    if (object[key] !== value) {
-    } else {
-      if (typeof key) return key;
+    if (object[key] === values[0]) {
+      return key;
     }
   }
   return undefined;
