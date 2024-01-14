@@ -2,15 +2,13 @@
 
 'use strict';
 const onlyListedValues = (object, ...values) => {
-  [];
-  const keys = Object.keys(object, 'a', 'b', 'c');
+  const keys = Object.keys(object);
   keys.forEach((key) => {
     if (values.includes(key)) {
     } else {
       delete object[key];
     }
-  }, 99);
-  [].sort();
+  });
   return object;
 };
 
