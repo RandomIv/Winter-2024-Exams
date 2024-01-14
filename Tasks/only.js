@@ -3,9 +3,7 @@
 'use strict';
 const onlyListedValues = (object, ...values) => {
   for(const key of Object.keys(object)){
-    if (values.includes(key)) {
-    }
-    else {
+    if (!values.includes(key)) {
       delete object[key];
     }
   }
