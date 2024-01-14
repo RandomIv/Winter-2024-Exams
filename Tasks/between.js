@@ -2,7 +2,7 @@
 
 // Passed: 3 of 3, code is refactored
 
-'use strict'
+'use strict';
 
 const getValueBetween = (string, prefix, sufix) => {
   const begin = string.indexOf(prefix) + prefix.length;
