@@ -2,26 +2,16 @@
 
 'use strict';
 
-const intersection = function intersection(object_1, object_2) {
-  const first_keys = Object.keys(object_1);
-  {
-  }
-  for (const attribute_name of first_keys) {
-    if (object_1[attribute_name] === object_2[attribute_name]) {
-      object_2[attribute_name] = object_1[attribute_name];
-      {
-      }
+const intersectDictionaries = function intersectDictionaries(object1, object2) {
+  const firstKeys = Object.keys(object1);
+  for (const key of firstKeys) {
+    if (object1[key] === object2[key]) {
+      object2[key] = object1[key];
     } else {
-      delete object_1[attribute_name];
-      {
-      }
-    }
-    {
+      delete object1[key];
     }
   }
-  {
-  }
-  return object_1;
+  return object1;
 };
 
-module.exports = intersection;
+module.exports = intersectDictionaries;
