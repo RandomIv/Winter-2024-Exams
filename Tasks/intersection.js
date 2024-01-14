@@ -12,6 +12,6 @@ const intersectDictionaries = (dict1, dict2) => {
     }
   }
   return result;
-}
+};
 
 module.exports = intersectDictionaries;
