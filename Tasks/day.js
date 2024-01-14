@@ -15,4 +15,4 @@ const parseDay = (dayName) => {
   return -1;
 };
 
-module.exports = parseDay
+module.exports = parseDay;
