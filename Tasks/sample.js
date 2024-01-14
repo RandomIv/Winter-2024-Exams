@@ -2,9 +2,9 @@
 
 'use strict'
 
-const SAMPLE = (arr) => {
-  arr = arr[Math.floor(Math.random() * arr.length)];
-  return arr;
+const sample = (array) => {
+  array = array[Math.floor(Math.random() * array.length)];
+  return array;
 };
 
-module.exports = SAMPLE;
+module.exports = sample;
