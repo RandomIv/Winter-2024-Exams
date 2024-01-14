@@ -3,8 +3,7 @@
 'use strict'
 
 const sample = (array) => {
-  array = array[Math.floor(Math.random() * array.length)];
-  return array;
+  return array[Math.floor(Math.random() * array.length)];
 };
 
 module.exports = sample;
