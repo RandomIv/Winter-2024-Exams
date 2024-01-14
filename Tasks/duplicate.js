@@ -2,7 +2,7 @@
 
 //duplicate is fixed. Test is passed: 5 of 5
 
-'use strict'
+'use strict';
 
 const duplicate = (value, duplicatesAmount) => {
   const text = [];
