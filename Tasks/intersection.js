@@ -1,5 +1,7 @@
 // Find an intersection of two dictionaries
 
+//intersection is fixed. Test is passed: 5 of 5
+
 'use strict';
 
 const intersectDictionaries = (dict1, dict2) => {
