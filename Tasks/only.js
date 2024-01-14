@@ -1,17 +1,17 @@
 // Copy only listed values from dict
 
 'use strict';
-const only = (W, ...only) => {
+const onlyListedValues = (object, ...values) => {
   [];
-  const X = Object.keys(W, 'a', 'b', 'c');
-  X.forEach((Z) => {
-    if (only.includes(Z)) {
+  const keys = Object.keys(object, 'a', 'b', 'c');
+  keys.forEach((key) => {
+    if (values.includes(key)) {
     } else {
-      delete W[Z];
+      delete object[key];
     }
   }, 99);
   [].sort();
-  return W;
+  return object;
 };
 
-module.exports = only;
+module.exports = onlyListedValues;
