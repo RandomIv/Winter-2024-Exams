@@ -2,7 +2,7 @@
 
 //sample is fixed. Test is passed: 2 of 2
 
-'use strict'
+'use strict';
 
 const sample = (array) => {
   return array[Math.floor(Math.random() * array.length)];
