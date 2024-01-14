@@ -1,5 +1,7 @@
 // Split an array into two parts
 
+//split is fixed. Test is passed: 6 of 6
+
 'use strict';
 
 const splitArrayIntoTwo = (index, array) => {
